@@ -1,0 +1,65 @@
+# ========================
+# OS & Editor Junk
+# ========================
+.DS_Store
+Thumbs.db
+*.log
+*.swp
+*.swo
+*.tmp
+
+# ========================
+# Node.js (Frontend & Backend)
+# ========================
+**/node_modules/
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
+**/package-lock.json
+**/yarn.lock
+
+# ========================
+# Environment Files
+# ========================
+.env
+.env.*
+!.env.example
+
+# ========================
+# Build Artifacts (React & Backend)
+# ========================
+**/build/
+**/dist/
+**/coverage/
+**/.next/
+**/.turbo/
+**/.parcel-cache/
+**/.vercel/
+
+# ========================
+# Logs & Misc
+# ========================
+logs
+*.log
+debug.log
+error.log
+
+# ========================
+# IDE / Editor Settings
+# ========================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ========================
+# Mac System Files
+# ========================
+*.DS_Store
+
+# ========================
+# Windows System Files
+# ========================
+ehthumbs.db
+Icon?
+Desktop.ini
